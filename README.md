@@ -4,7 +4,7 @@ Simple lightweight wysiwyg editor blade component for Laravel.
 The following is a simple wysiwyg editor with some basic functions.
 It uses tailwind css, icons from heroicons, basic css and js.
 
-Create a compoenent using laravel:
+Create a component using laravel:
 ```bash
  php artisan make:component Editor
 ```
