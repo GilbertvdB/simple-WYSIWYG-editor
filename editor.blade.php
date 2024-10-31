@@ -69,9 +69,9 @@
     }
 </style>
 
-<div class="border rounded-lg px-2 py-2 bg-white">
+<div class="border rounded-lg p-1 sm:p-2 bg-white">
     <!-- Toolbar for formatting options -->
-    <div class="border flex justify-between rounded-full px-4 bg-slate-100"> 
+    <div class="border flex justify-between rounded-full px-4 bg-slate-100 overflow-x-auto"> 
         <div id="toolbar" class="flex space-x-1 ">
             <button type="button" onclick="formatText('bold')" class="px-3 py-1 hover:bg-gray-200 rounded min-w-8"><strong>B</strong></button>
             <button type="button" onclick="formatText('italic')" class="px-3 py-1 hover:bg-gray-200 rounded min-w-8"><i>I&nbsp;</i></button>
